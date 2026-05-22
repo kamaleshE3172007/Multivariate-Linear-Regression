@@ -6,19 +6,16 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1
-<br>
+Import the required libraries (pandas and LinearRegression) and load the dataset from the CSV file.
 
 ### Step2
-<br>
+Select the independent variables (features) and the dependent variable (target) from the dataset.
 
 ### Step3
-<br>
+Create and train the Linear Regression model using the training data.
 
 ### Step4
-<br>
-
-### Step5
-<br>
+Predict the output for the given input values and display the predicted result.
 
 ## Program:
 ```
@@ -42,8 +39,6 @@ print(Y_pred)
 <img width="365" height="98" alt="image" src="https://github.com/user-attachments/assets/ce6f8f63-914d-41e3-9dc9-49c279bdf6c4" />
 
 ### Insert your output
-
-<br>
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
