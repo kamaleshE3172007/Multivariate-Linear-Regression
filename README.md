@@ -22,14 +22,24 @@ To write a python program to implement multivariate linear regression and predic
 
 ## Program:
 ```
-
-
-
-
-
-
+import numpy as np
+X = np.array(eval(input()))
+Y = np.array(eval(input()))
+X_mean = np.mean(X)
+Y_mean = np.mean(Y)
+num = 0
+den = 0
+for i in range(len(X)):
+    num += (X[i] - X_mean) * (Y[i] - Y_mean)
+    den += (X[i] - X_mean) ** 2
+m = num / den
+c = Y_mean - m * X_mean
+print(m, c)
+Y_pred = m * X + c
+print(Y_pred)
 ```
 ## Output:
+<img width="365" height="98" alt="image" src="https://github.com/user-attachments/assets/ce6f8f63-914d-41e3-9dc9-49c279bdf6c4" />
 
 ### Insert your output
 
